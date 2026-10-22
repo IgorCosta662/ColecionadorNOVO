@@ -1,0 +1,152 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ambient Shadow under the Acrylic Slab -->
+    <path
+        android:fillColor="#30000000"
+        android:pathData="M31,25 h46 c3.3,0 6,2.7 6,6 v55 c0,3.3 -2.7,6 -6,6 h-46 c-3.3,0 -6,-2.7 -6,-6 v-55 c0,-3.3 2.7,-6 6,-6 z" />
+
+    <!-- 1. Acrylic Slab Outer Body (Crystal Clear Magnetic Case) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M31,23 h46 c3.3,0 6,2.7 6,6 v54 c0,3.3 -2.7,6 -6,6 h-46 c-3.3,0 -6,-2.7 -6,-6 v-54 c0,-3.3 2.7,-6 6,-6 z" />
+
+    <!-- Outer Acrylic Bevel & Polished Border -->
+    <path
+        android:strokeColor="#475569"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M31,23 h46 c3.3,0 6,2.7 6,6 v54 c0,3.3 -2.7,6 -6,6 h-46 c-3.3,0 -6,-2.7 -6,-6 v-54 c0,-3.3 2.7,-6 6,-6 z" />
+
+    <!-- Top Magnetic Fastener / Precision Screw Seal -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M54,24.5 a2,2 0 1,0 0.001,0 Z" />
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M54,25.2 a0.8,0.8 0 1,0 0.001,0 Z" />
+
+    <!-- 2. Graded Authentication Label (PSA / BGS style physical header) -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M34,28.5 h40 c1,0 1.8,0.8 1.8,1.8 v8.4 c0,1 -0.8,1.8 -1.8,1.8 h-40 c-1,0 -1.8,-0.8 -1.8,-1.8 v-8.4 c0,-1 0.8,-1.8 1.8,-1.8 z" />
+
+    <!-- Red Security Header Bar on Label -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M34,28.5 h40 c1,0 1.8,0.8 1.8,1.8 v1.2 h-43.6 v-1.2 c0,-1 0.8,-1.8 1.8,-1.8 z" />
+
+    <!-- Grade 10 Gold Rating Badge -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M67,32 h6 c0.6,0 1,0.4 1,1 v6 c0,0.6 -0.4,1 -1,1 h-6 c-0.6,0 -1,-0.4 -1,-1 v-6 c0,-0.6 0.4,-1 1,-1 z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M68,33 h4 v2 h-4 z M68,36 h4 v2 h-4 z" />
+
+    <!-- Label Detail Lines (Collector Certification & Barcode) -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M36,33 h18 v1 h-18 z M36,35 h14 v1 h-14 z M36,37.5 h26 v1 h-26 z" />
+
+    <!-- 3. Inner Card Chamber Recess (Dark Depth Border) -->
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M34,42.5 h40 c1.2,0 2,0.8 2,2 v36.5 c0,1.2 -0.8,2 -2,2 h-40 c-1.2,0 -2,-0.8 -2,-2 v-36.5 c0,-1.2 0.8,-2 2,-2 z" />
+
+    <!-- 4. Physical Collectible Card Body -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M35.5,44 h37 c1,0 1.8,0.8 1.8,1.8 v33.4 c0,1 -0.8,1.8 -1.8,1.8 h-37 c-1,0 -1.8,-0.8 -1.8,-1.8 v-33.4 c0,-1 0.8,-1.8 1.8,-1.8 z" />
+
+    <!-- Card Gold Foil Rim / Trim -->
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000"
+        android:pathData="M36.2,44.7 h35.6 c0.7,0 1.2,0.5 1.2,1.2 v32 c0,0.7 -0.5,1.2 -1.2,1.2 h-35.6 c-0.7,0 -1.2,-0.5 -1.2,-1.2 v-32 c0,-0.7 0.5,-1.2 1.2,-1.2 z" />
+
+    <!-- Card Artwork Window Background (Deep Cosmic Night) -->
+    <path
+        android:pathData="M37.5,46.5 h33 c0.6,0 1,0.4 1,1 v18 c0,0.6 -0.4,1 -1,1 h-33 c-0.6,0 -1,-0.4 -1,-1 v-18 c0,-0.6 0.4,-1 1,-1 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="37.5"
+                android:startY="46.5"
+                android:endX="71.5"
+                android:endY="66.5"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E1B4B" />
+                <item android:offset="0.5" android:color="#312E81" />
+                <item android:offset="1.0" android:color="#0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Card Artwork: Realistic Winged Dragon / Crest Motif in Vibrant Gold Foil -->
+    <!-- Dragon Wing Left -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,54 C50,49 44,51 40,55 C43,58 48,56 50,57 C51,57.5 53,55.5 54,54 Z" />
+    <!-- Dragon Wing Right -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M54,54 C58,49 64,51 68,55 C65,58 60,56 58,57 C57,57.5 55,55.5 54,54 Z" />
+    <!-- Dragon Crest Head & Torso -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M54,49 L56,53 L54,61 L52,53 Z" />
+    <!-- Dragon Flame Breath Core in Vivid Amber -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M54,58 C55.5,59 56,61 54,63 C52,61 52.5,59 54,58 Z" />
+
+    <!-- Holographic Prismatic Card Sheen (Diagonal Light Reflection) -->
+    <path
+        android:fillColor="#35FFFFFF"
+        android:pathData="M48,46.5 L60,46.5 L46,66.5 L37.5,66.5 Z" />
+    <path
+        android:fillColor="#2038BDF8"
+        android:pathData="M58,46.5 L67,46.5 L53,66.5 L44,66.5 Z" />
+
+    <!-- Card Lower Rules / Attack Text Panel -->
+    <path
+        android:fillColor="#27272A"
+        android:pathData="M37.5,68 h33 c0.5,0 1,0.5 1,1 v9 c0,0.5 -0.5,1 -1,1 h-33 c-0.5,0 -1,-0.5 -1,-1 v-9 c0,-0.5 0.5,-1 1,-1 z" />
+
+    <!-- Attacks Text Lines (Gold & Silver Foil lines) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M39,70 h16 v1.2 h-16 z M64,70 h5 v1.2 h-5 z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M39,72.5 h28 v0.8 h-28 z M39,74.5 h23 v0.8 h-23 z M39,76.5 h26 v0.8 h-26 z" />
+
+    <!-- 5. Crystal Acrylic Front Surface Specular Glare (Realistic Glass Studio Reflection) -->
+    <!-- Sharp diagonal reflection traversing from top-left corner across the acrylic face -->
+    <path
+        android:pathData="M31,23 L45,23 L77,72 L77,83 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="31"
+                android:startY="23"
+                android:endX="77"
+                android:endY="83"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#28FFFFFF" />
+                <item android:offset="0.4" android:color="#0DFFFFFF" />
+                <item android:offset="1.0" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Secondary subtle rim shine on top-left edge -->
+    <path
+        android:fillColor="#50FFFFFF"
+        android:pathData="M31,23 h18 v0.9 h-18 z M31,23 v20 h0.9 v-20 z" />
+
+</vector>
